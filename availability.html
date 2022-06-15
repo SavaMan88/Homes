@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Verst</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png" />
+  <link rel="manifest" href="assets/images/site.webmanifest" />
+  <link media="all" rel="stylesheet" href="assets/css/vendor.min.css" />
+  <link media="all" rel="stylesheet" href="assets/css/styles.min.css" />
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/Logo-White.svg" alt="">
+                </a>
+            </div>
+
+            <ul class="menu">
+                <li class="menu__item"><a href="#" class="menu__link">AVAILABILITY</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">CONTACT</a></li>
+                <li class="menu__item"><a href="#" class="menu__link">APPLY NOW</a></li>
+            </ul>
+
+            <nav class="nav js-burger" id="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="residences.html" class="nav__link">
+                            RESIDENCES</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="amenities.html" class="nav__link">
+                            AMENITIES</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="availability.html" class="nav__link">
+                            AVAILABILITY</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="gallery.html" class="nav__link">
+                            GALLERY</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="heighborhood.html" class="nav__link">
+                            NEIGHBORHOOD</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="news.html" class="nav__link">
+                            NEWS</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">
+                            CONTACT</a>
+                    </li>
+                </ul>
+
+                <button type="button" class="btn primary">RESIDENT PORTAL</button>
+
+                <span class="nav__location">201.345.8989</span>
+                <span class="nav__location">89 Monitor St, Jersey City, NJ</span>
+            </nav>
+
+            <div class="burger js-burger-open">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="inform">
+        <p class="inform-text"><span>Grand Opening!</span> Offering X Months Free*</p>
+    </div>
+
+    <main class="main">
+      <section class="inform-section">
+        <div class="inform-container">
+          <h2 class="section-title text-white">AVAILABILITY</h2>
+          <h1 class="main-title text-white">LOREM IPSOM AVAILABILITY</h1>
+          <a href="#next-section" class="arrow-down js-link-to">
+            <img src="assets/images/arrow-down.svg" alt="" />
+          </a>
+        </div>
+
+        <div class="inform-bg">
+          <picture>
+            <source srcset="assets/images/Avail_Header.webp" media="(min-width: 1024px)" />
+            <source srcset="assets/images/Avail_Header.jpeg" media="(min-width: 1024px)" />
+            <source srcset="assets/images/Avail_Header.webp" media="(min-width: 768px)" />
+            <source srcset="assets/images/Avail_Header.jpeg" media="(min-width: 768px)" />
+            <source srcset="assets/images/Avail_Header.webp" />
+            <img src="assets/images/Avail_Header.jpeg" alt="" />
+          </picture>
+        </div>
+      </section>
+
+      <section class="filter-section">
+        <div class="filter js-tabs">
+          <div class="filter__head border-bottom">
+            <ul class="filter__list">
+              <li class="filter__btn btn primary active" data-tab="all">ALL</li>
+              <li class="filter__btn btn primary" data-tab="studio">STUDIO</li>
+              <li class="filter__btn btn primary" data-tab="one-bedroom">1 BEDROOM</li>
+              <li class="filter__btn btn primary" data-tab="two-bedroom">2 BEDROOM</li>
+            </ul>
+          </div>
+          <div class="filter__content">
+            <div class="item-wrap">
+              <div class="item active" data-content="studio">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">B1</h2>
+                  <h3 class="section-title text-white">UNIT 622</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">STUDIO / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+              <div class="item active" data-content="one-bedroom">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">E2</h2>
+                  <h3 class="section-title text-white">UNIT 501</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">1 BED / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+              <div class="item active" data-content="one-bedroom">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">A1</h2>
+                  <h3 class="section-title text-white">UNIT 302</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">1 BED + DEN / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+              <div class="item active" data-content="one-bedroom">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">J</h2>
+                  <h3 class="section-title text-white">UNIT 410</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">1 BED / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+              <div class="item active" data-content="studio">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">G</h2>
+                  <h3 class="section-title text-white">UNIT 313</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">STUDIO / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+              <div class="item active" data-content="two-bedroom">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">D</h2>
+                  <h3 class="section-title text-white">UNIT 509</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">2 BED / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+              <div class="item active" data-content="one-bedroom">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">H</h2>
+                  <h3 class="section-title text-white">UNIT 212</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">1 BED / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+              <div class="item active" data-content="one-bedroom">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">A2</h2>
+                  <h3 class="section-title text-white">UNIT 402</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">1 BED + DEN / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+              <div class="item active" data-content="one-bedroom">
+                <div class="item__wrap">
+                  <h2 class="item__title main-title text-white border-green">K</h2>
+                  <h3 class="section-title text-white">UNIT 608</h3>
+                  <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+                  <h3 class="item__id section-title text-white">1 BED + DEN / 1 BATH</h3>
+                  <h3 class="item__price section-title text-white">$X,XXX*</h3>
+                  <button class="item__btn js-show-popup" data-trigger="plan-popup">VIEW FLOOR PLAN</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="info-section">
+        <div class="container">
+          <h2 class="section-title text-white">GALLERY</h2>
+          <p class="base-text text-white text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua.</p>
+          <button type="button" class="btn secondary">VIEW</button>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-form">
+          <p class="footer-text">Please register below and a member of our leasing team will be in touch shortly</p>
+          <form action="#" class="form">
+            <div class="form__wrap">
+              <div class="form__field">
+                <input type="text" name="#" placeholder="Full Name*" required class="form__input" />
+              </div>
+              <div class="form__field">
+                <input type="email" name="#" placeholder="Email*" required class="form__input" />
+              </div>
+              <div class="form__field">
+                <input type="number" name="#" placeholder="Phone*" required class="form__input" />
+              </div>
+              <div class="form__field">
+                <textarea name="#" id="#" placeholder="Comments" class="form__input"></textarea>
+              </div>
+              <button type="submit" class="btn secondary text-dark">submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-row">
+        <div class="footer-container">
+          <div class="footer-col">
+            <span class="footer-location">201.345.8989 89 Monitor St, Jersey City, NJ</span>
+            <span class="footer-title">RESIDENT PORTAL</span>
+          </div>
+          <div class="footer-col">
+            <div class="footer-image">
+              <img src="assets/images/Footer-SouthOxford.svg" alt="" />
+            </div>
+            <div class="footer-image">
+              <img src="assets/images/Footer-TMD-Black.svg" alt="" />
+            </div>
+            <div class="footer-image">
+              <img src="assets/images/Footer-FieldsGrade.svg" alt="" />
+            </div>
+            <div class="footer-image">
+              <img src="assets/images/Footer-Alpine.svg" alt="" />
+            </div>
+            <div class="footer-image">
+              <img src="assets/images/Footer-EHO.svg" alt="" />
+            </div>
+            <span class="footer-subtext"
+              >*Offering X months free on a X-month lease. Rents reflect net effective pricing. Prices and features are subject to change.
+              Images are a combination of artist’s rendering and photography. All images, finishes, interior decorations, appliances and
+              furnishings are provided for illustrative purposes only.</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer-decor">
+        <img src="assets/images/decor.svg" alt="" />
+      </div>
+    </footer>
+
+
+    <div class="overlay js-overlay"></div>
+
+    <div class="popup js-popup" data-popup="plan-popup">
+      <button type="button" class="popup__close js-popup-close"></button>
+      <div class="popup__wrap">
+        <div class="popup__descr">
+          <button type="button" class="popup__back js-popup-close">
+            BACK TO AVAILABILITY
+            <span class="btn-prev"></span>
+          </button>
+          <div class="item item--popup active">
+            <div class="item__wrap">
+              <h2 class="item__title main-title text-white border-green">E2</h2>
+              <h3 class="section-title text-white">UNIT 608</h3>
+              <h3 class="item__date section-title text-white">AVAILABLE X/X/20XX</h3>
+              <h3 class="item__id section-title text-white">1 BED + DEN / 1 BATH</h3>
+              <h3 class="item__price section-title text-white">$X,XXX*</h3>
+              <a href="#" class="item__btn">APPLY NOW</a>
+              <a href="#" class="item__btn" download>DOWNLOAD</a>
+            </div>
+          </div>
+        </div>
+        <div class="popup__img-wrap">
+          <div class="popup__img">
+            <img src="assets/images/plan.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="assets/js/vendor.min.js" defer></script>
+  <script src="assets/libs/swiper.min.js" defer></script>
+  <script src="assets/libs/aos.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqwc84ztMCjZcOzGcYki7U86cfJRnF390&callback=initMap&v=weekly"></script>
+  <script src="assets/js/app.js" defer></script>
+
+</body>
+
+</html>
